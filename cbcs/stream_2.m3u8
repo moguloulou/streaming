@@ -1,0 +1,19 @@
+#EXTM3U
+#EXT-X-VERSION:6
+## Generated with https://github.com/shaka-project/shaka-packager version v3.2.0-53b866886f-release
+#EXT-X-TARGETDURATION:8
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-MAP:URI="H264_640x360/init.mp4"
+#EXTINF:8.000,
+H264_640x360/1.m4s
+#EXT-X-DISCONTINUITY
+#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://uoubtrVaT/a1zA6AZzStgA==",KEYFORMATVERSIONS="1",KEYFORMAT="com.apple.streamingkeydelivery"
+#EXTINF:4.000,
+H264_640x360/2.m4s
+#EXTINF:8.000,
+H264_640x360/3.m4s
+#EXTINF:4.000,
+H264_640x360/4.m4s
+#EXTINF:4.200,
+H264_640x360/5.m4s
+#EXT-X-ENDLIST
